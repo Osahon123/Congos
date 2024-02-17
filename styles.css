@@ -89,7 +89,7 @@ nav span {
 
 /* SLIDE IN */
 .sidenav {
-    height: 40%;
+    height: 60%;
     border-radius: 20px;
     width: 0;
     position: fixed;
@@ -127,7 +127,6 @@ nav span {
 .sidenav a ion-icon:hover {
     color: #ffffff;
     background-color: #212a79;
-    border-radius: 50%;
 }
 
 .slidein:hover {
