@@ -124,7 +124,7 @@ nav span {
     border: #212a79 1px solid;
     border-radius: 50%;
 }
-.sidenav a:hover {
+.sidenav a ion-icon:hover {
     color: #ffffff;
     background-color: #212a79;
     border-radius: 50%;
