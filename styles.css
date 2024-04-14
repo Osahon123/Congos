@@ -89,7 +89,7 @@ nav span {
 
 /* SLIDE IN */
 .sidenav {
-    height: 60%;
+    height: 40%;
     border-radius: 20px;
     width: 0;
     position: fixed;
@@ -124,9 +124,10 @@ nav span {
     border: #212a79 1px solid;
     border-radius: 50%;
 }
-.sidenav a ion-icon:hover {
+.sidenav a:hover {
     color: #ffffff;
     background-color: #212a79;
+    border-radius: 50%;
 }
 
 .slidein:hover {
@@ -164,7 +165,7 @@ nav span {
 
     .headerimage {
         margin-top: 14%;
-        height: 100vw;
+        height: 110vw;
     }
 
 }
@@ -216,18 +217,14 @@ span {
     text-align: center;
 }
 main .aboutus button {
-    
+    background-color: #212a79;
     margin-top: 15px;
-    color: #212a79;
+    color: #fff;
     border: 2px #212a79 solid;
     border-radius: 15px 0;
     padding: 10px;
     display: none;
-}
-
-main .aboutus button:hover {
-    background-color: #212a79;
-    color: #fff;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 800px) {
@@ -261,20 +258,29 @@ main .aboutus button:hover {
 
 main .mission {
     padding: 40px 0;
+    margin: 0;
+    display: block;
+    
+    /* background-color: #21894c; */
+    background-image: linear-gradient(to bottom left, #212a79, #00E3B3);
+}
+main .mission h1 {
+    color: #fff;
+}
+main .mission .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #f0f8ff;
 }
 
-main .mission div {
+main .mission .container div {
     text-align: center;
     padding: 20px 20px;
     margin: 20px 1vw;
     width: 300px;
     background-color: #fff;
     border-radius: 12px;
-    box-shadow: 1px 1px 3.5px black;
+    box-shadow: 1px 2px 7.5px black;
 }
 
 
@@ -337,10 +343,13 @@ main .excos div h3 {
 
 
 main .partners {
-    margin-top: 20px;
-    background-color: #f0fff0;
+    margin: 20px 0 0 0;
+    padding: 20px 0;
+    background-image: linear-gradient(to bottom left, #212a79, #00E3B3);
 }
-
+main .partners h1 {
+    color: #fff;
+}
 main .partners div {
     display: flex;
     justify-content: center;
@@ -370,7 +379,7 @@ main .location div {
 /* FOOTER */
 
 footer {
-    background-color: #212a79;
+    background-image: linear-gradient(to top right, #212a79, #00E3B3);
 }
 
 footer section {
